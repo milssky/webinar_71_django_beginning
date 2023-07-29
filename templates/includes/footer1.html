@@ -1,0 +1,9 @@
+<footer>
+    <h2>Это подвал 1</h2>
+    {% if display_full_text %}
+        <h3>Это полный текст</h3>
+    {% else %}
+        <h3>Это сокращенный текст</h3>
+    {% endif %}
+    <p style="color: {{ text_color}}">{{ page_text }}</p>
+</footer>
